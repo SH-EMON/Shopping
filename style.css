@@ -44,7 +44,8 @@ body{
 	width: unset;
 }
 .status{
-	text-align: right;
+	margin-left:132px;
+	margin-top:12px;
 }
 .check-out{
     float: right;
@@ -52,4 +53,26 @@ body{
 	font-size: 19px;
 	background-color: #2FBE70;
 	border: none;
+}
+.subh5,.taxh5,.totalh5{
+	border:1px solid dimgray;
+}
+.taxh5,.totalh5{
+	border-top:none;
+	margin-top:-8px;
+}
+.cart-item h5{
+	padding:5px 50px;
+}
+#plusBtn{
+	margin-left:5px;
+}
+#minusBtn{
+	margin-right:5px;
+}
+#sPlusBtn{
+	margin-left:5px;
+}
+#sMinusBtn{
+	margin-right:5px;
 }
